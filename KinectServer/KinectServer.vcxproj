@@ -77,7 +77,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="camera\simplejpeg.cpp" />
+    <ClCompile Include="camera\udpCameraBroadcaster.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="network\net_utility.cpp" />
+    <ClCompile Include="network\udp_connection.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera\simplejpeg.h" />
+    <ClInclude Include="camera\udpCameraBroadcaster.h" />
+    <ClInclude Include="network\net_utility.h" />
+    <ClInclude Include="network\udp_connection.h" />
+    <ClInclude Include="network\udp_message.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
